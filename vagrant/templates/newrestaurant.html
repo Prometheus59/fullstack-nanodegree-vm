@@ -10,9 +10,7 @@
 
   <h2>Create a new restaurant:</h2>
 
-  <form action="{{url_for('newRestaurant', restaurant_id=restaurant_id )}}" method=['POST']>
-
-    <p>Name:</p>
+  <form action="{{url_for('newRestaurant', restaurant_id=restaurant_id )}}", method="POST" />
 
     <input type="text" size="30" name="name" placeholder="New Restaurant">
 
